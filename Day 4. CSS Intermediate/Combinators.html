@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ! Descendant selector */
+        /* .main_container h1{
+            color: red;
+            background: black;
+        } */
+        /* ! Child selector */
+        /* .main_container>h1{
+            color: yellow;
+            background: red;
+        } */
+
+
+        
+        div ~ h1{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- !Combinators -->
+    <!-- <div class="main_container">
+        <h1 class="primary_heading">i don't know what to write</h1>
+        <div class="main_inner_container">
+            <div class="inner_container">
+                <h1 class="secondary_heading">something very random</h1>
+            </div>
+        </div>
+    
+    </div> -->
+
+    <!--! Sibling -->
+
+<!-- Next person ==> +  -->
+ <!-- All Sibling ==> ~ -->
+    <div class="parent"><h1 class="child">Hello this is the son</h1></div>
+    <h1 class="parent_brother">Hello this is the brother</h1>
+    <h1 class="parent_sister">Hello this is the sister</h1>
+
+</body>
+</html>

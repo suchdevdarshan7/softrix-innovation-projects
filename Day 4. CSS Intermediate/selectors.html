@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ! Tag Name selector */
+        /* h1{
+            color: white;
+            background-color: red;
+        } */
+        /* ! Generic Class Selector  */
+        /* .heading{
+            color: red;
+            background-color: black;
+        } */
+        /* ! Class Selector */
+        /* TagName.ClassName */
+        /* h1.heading{
+            color: red;
+            background-color: black;
+        } */
+         
+        /* ! Id selector */
+
+        /* #primary__heading{
+            color: black;
+            background-color: yellow;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <h2 class="primary__heading">Content</h2>
+    <h1 class="primary__heading">Content</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae dolor ratione modi nobis. Tempora doloribus veniam delectus itaque minima eaque in consequatur sapiente praesentium, rem quis incidunt dolorum aliquid?</p>
+    <h3 class="heading">Heading 3</h3>
+    <!-- ! opening tag with ending tag and also has content is called element -->
+     <!-- ! selecting element requires selectors -->
+
+     <script>
+        const heading = document.getElementsByClassName('primary__heading');
+        console.log(heading)
+     </script>
+</body>
+</html>
