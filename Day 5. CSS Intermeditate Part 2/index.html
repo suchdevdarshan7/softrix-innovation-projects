@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-font-color: #fff;
+            --primary-button-color: rgb(7, 162, 201);
+        }
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+            color: var(--primary-font-color);
+            font-family: sans-serif;
+        }
+        nav{
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(20, 20, 20);
+            padding-left: 200px;
+            padding-right: 200px;
+
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:30px;
+        }
+        li>a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+        button{
+            background-color: var(--primary-button-color);
+            border:none;
+            width:90px;
+            height: 30px; 
+            border-radius: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+                <li><button>Contact</button></li>
+
+            </ul>
+            <h1>Logobakery</h1>
+        </nav>
+    </header>
+</body>
+</html>
