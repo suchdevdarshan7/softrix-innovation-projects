@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:20px;
+
+        }
+
+        :root{
+            --primary-box-values: 0px 100px 10px 3px rgba(0, 0, 0, 0.249);
+        }
+        a{
+            text-decoration: none;
+            background-color: tomato;
+            color: white;
+            padding: 5px; 
+            /* border-radius: 12px; */
+            width: 100px;
+            text-align: center;
+            display: inline-block;
+            border:none;
+            height:20px;
+            width:100px;
+            /* box-shadow: x-axis y-axis blur-ratio spread-ratio color; */
+            box-shadow: var(--primary-box-values);
+            transition: all 0.9s ease-in-out;
+        }
+
+        a:hover{
+            /* transform: scale(0.5); */
+            /* transform: rotateZ(1turn); */
+            /* transform: rotate(1turn); */
+            /* transform: skewY(10deg); */
+            /* transform: translateX(-100px); */
+            /* transform: translate(100px,100px);
+            background-color: green; */
+        }
+        a:active{
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Click me</a>
+</body>
+</html>
