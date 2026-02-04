@@ -170,6 +170,6 @@ switch (a) {
    case 5 :
     console.log('The number is 5')
     break;
-    default:
+   default:
         console.log("The number is not in the range 1 to 5")
 }
