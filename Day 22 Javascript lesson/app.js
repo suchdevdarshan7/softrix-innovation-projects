@@ -46,9 +46,6 @@ function Addition(number1,number2){ console.log(number1+number2)
 }
 
 // Addition(10,20)
-
-
-
 const birthyear = 2024;
 
 function FindThisYear(){

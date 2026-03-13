@@ -1,0 +1,22 @@
+.btn{
+    background-color: navy;
+    color: white;
+    /* padding: 30px ; */
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    width: 150px; 
+    height: 30px; 
+    text-align: center;
+}
+
+.btn-clicked{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    display: inline-block;
+    width: 150px; 
+    height: 30px; 
+    text-align: center;
+}
